@@ -1,0 +1,17 @@
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: $contrast-bgc;
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__logo {
+    display: inline-block;
+    padding-bottom: 20px;
+
+    color: $contrast-text-color;
+  }
+}

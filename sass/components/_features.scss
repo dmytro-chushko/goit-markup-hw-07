@@ -1,0 +1,33 @@
+.features {
+  padding-top: 94px;
+
+  &__title {
+    margin-bottom: 10px;
+
+    font-size: inherit;
+    line-height: 1.14;
+    text-transform: uppercase;
+  }
+  
+  &__list {
+    display: flex;
+  }
+
+  &__item {
+    width: 270px;
+
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
+  }
+
+  &__icon {
+    display: flex;
+    height: 120px;
+    justify-content: center;
+    align-items: center;
+    background-color: $secondary-bgc;
+    border-radius: 4px;
+    margin-bottom: 30px;
+  }
+}
